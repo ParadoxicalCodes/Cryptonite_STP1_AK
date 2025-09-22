@@ -5,7 +5,7 @@ You can invoke a program by providing its path on the command line. In this case
 
 Start the challenge, launch a terminal, invoke the pwn program using its absolute path, and Capture that Flag! Good luck!
 # Thought Process & Solution
-Not much to say for this challenge - typing in hello in the cli gave us the flag, though in the process I do see that commands are case sensitive.
+.......
 ```Bash
 
 ```
