@@ -8,3 +8,5 @@ Just had to press Up key once and we can see the flag in our terminal.
 hacker@hello~command-history:~$ the flag is pwn.college{YQ-c3-21MyxDntNMyFpDi9u1PMx.QX2MTM3EDL5EzN0czW}
 ```
 **Flag:** `pwn.college{YQ-c3-21MyxDntNMyFpDi9u1PMx.QX2MTM3EDL5EzN0czW}`
+## New Learnings
+Arrow keys can be used to navigate our cmd history.
