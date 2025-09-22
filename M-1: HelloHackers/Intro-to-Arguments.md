@@ -24,3 +24,5 @@ Success! Here is your flag:
 pwn.college{AVnDhn9U1YbMpMffQkGqHtxGz1z.dhjNyUDL5EzN0czW}
 ```
 **Flag:** `pwn.college{AVnDhn9U1YbMpMffQkGqHtxGz1z.dhjNyUDL5EzN0czW}`
+## New Learnings
+First word of our input is the cmd name, rest is treated as argument.
