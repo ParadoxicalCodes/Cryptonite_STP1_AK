@@ -1,4 +1,4 @@
-# Intro to Arguments
+# Challenge Description
 Let's try something more complicated: a command with arguments, which is what we call additional data passed to the command. When you type a line of text and hit enter, the shell actually parses your input into a command and its arguments. The first word is the command, and the subsequent words are arguments. Observe:
 ```
 hacker@dojo:~$ echo Hello
@@ -16,7 +16,7 @@ hacker@dojo:~$
 In this case, the command was echo, and Hello and Hackers! were the two arguments to echo. Simple!
 
 In this challenge, to get the flag, you must run the hello command (NOT the echo command) with a single argument of hackers. Try it now!
-## Thought Process & Solution
+# Thought Process & Solution
 Not much to say for this challenge, description told us what to write for command and argument.
 ```Bash
 hacker@hello~intro-to-arguments:~$ hello hackers
