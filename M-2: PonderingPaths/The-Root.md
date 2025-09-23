@@ -11,6 +11,9 @@ Start the challenge, launch a terminal, invoke the pwn program using its absolut
 ```
 **Flag:** `pwn.college{dummy-flag}`
 ## New Learning
+<img width="703" height="344" alt="image" src="https://github.com/user-attachments/assets/ab88ab4d-913a-40b5-8806-dc2c47238363" />
+
+Typical File system layout in linux, for windows its C: , D: etc
 
 ## Reference
 Tagged video in the module - https://youtu.be/b67Jq6IZ3U8?list=PL-ymxv0nOtqqRAz1x90vxNbhmSkeYxHVC
