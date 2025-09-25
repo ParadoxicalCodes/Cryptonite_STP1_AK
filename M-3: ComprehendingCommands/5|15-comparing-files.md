@@ -245,7 +245,7 @@ hacker@commands~comparing-files:~$ diff /challenge/decoys_only.txt /challenge/de
 22a23
 > pwn.college{U6p5kYwgJfYOwgz5Fa8YW-CYDdf.QXzAzM4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{U6p5kYwgJfYOwgz5Fa8YW-CYDdf.QXzAzM4EDL5EzN0czW}`
 ## New Learning
 diff cmd - basically compares two files and its output is the difference of contents in both the files
 ## Reference
