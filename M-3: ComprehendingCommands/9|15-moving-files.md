@@ -34,6 +34,5 @@ pwn.college{0HxoOJdw3TSuER5N52koe6I64Qg.QX5ETM3EDL5EzN0czW}
 ```
 **Flag:** `pwn.college{0HxoOJdw3TSuER5N52koe6I64Qg.QX5ETM3EDL5EzN0czW}`
 ## New Learning
-mv cmd - moves files from one place to another
-       - can have filename or its path as argument too
+mv cmd - moves files from one place to another AND can have filename or its path as argument too
 ## Reference
