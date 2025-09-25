@@ -15,7 +15,7 @@ HINT: The flag always starts with the text pwn.college.
 hacker@commands~grepping-for-a-needle-in-a-haystack:~$ grep pwn.college /challenge/data.txt
 pwn.college{oZI22anbi7BzTdN5F_26NSV2t7W.ddTM4QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{oZI22anbi7BzTdN5F_26NSV2t7W.ddTM4QDL5EzN0czW}`
 ## New Learning
 Learnt something about a new cmd 'grep' which is like cat cmd but with a filter.
 ## Reference
