@@ -73,9 +73,19 @@ Manpages are stored in a centralized database. If you're curious, this database 
 
 The challenge in this level has a secret option that, when you use it, will cause the challenge to print the flag. You must learn this option through the man page for challenge!
 # Thought Process & Solution
-```bash
+As said in the desc (description) my hints are in the man page of challenge cmd.
 
+<img width="1095" height="743" alt="image" src="https://github.com/user-attachments/assets/d5072f26-5ff3-4954-aa51-2b221f5d2321" />
+
+> this is the man output of challenge
+
+And we can see that there is a argument that leads us to printing the flag. So running that gave us the flag.
+
+```bash
+hacker@man~reading-manuals:~$ man challenge
+hacker@man~reading-manuals:~$ /challenge/challenge --vbejvu 601
+Correct usage! Your flag: pwn.college{Qv_bejCCvualcGpM6l0CpJNKAI1.dRTM4QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{Qv_bejCCvualcGpM6l0CpJNKAI1.dRTM4QDL5EzN0czW}`
 ## New Learning
 ## Reference
