@@ -24,6 +24,6 @@ hacker@piping~redirecting-more-output:~$ cat myflag
 [FLAG] Here is your flag:
 [FLAG] pwn.college{kHpjLxnEcqYYzBL0CbzJrATHmK0.dVjN1QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{kHpjLxnEcqYYzBL0CbzJrATHmK0.dVjN1QDL5EzN0czW}`
 ## New Learning
 ## Reference
