@@ -15,6 +15,6 @@ hacker@globbing~tab-completion-on-commands:~$ pwncollege-954
 Correct! Here is your flag:
 pwn.college{Md7Xz_gexAng5XChcg5qAmjpXxC.QX1QTM3EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{Md7Xz_gexAng5XChcg5qAmjpXxC.QX1QTM3EDL5EzN0czW}}`
 ## New Learning
 ## Reference
