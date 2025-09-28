@@ -12,16 +12,13 @@ Look: file_a file_b
 ```
 Try it here! We've placed a bunch of files in /challenge/files. Change your working directory to /challenge/files and run /challenge/run with a single argument that bracket-globs into file_b, file_a, file_s, and file_h!
 # Thought Process & Solution
-I first changed my cwd to /challenge/files and then did /challenge/run with bracket glob [bash] as argument but it seems i was to run this cmd from ~. (Slightly confused because the desc says otherwise).
+I first changed my cwd to /challenge/files then passed the argument file_[bash] for my run program which gave us the flag.
 ```bash
-hacker@globbing~matching-paths-with-:~$ cd /challenge/files
-hacker@globbing~matching-paths-with-:/challenge/files$ /challenge/run /challenge/files/file_[bash]
-Error: please run with a working directory of /home/hacker!
-hacker@globbing~matching-paths-with-:/challenge/files$ cd
-hacker@globbing~matching-paths-with-:~$ /challenge/run /challenge/files/file_[bash]
+hacker@globbing~matching-with-:~$ cd /challenge/files
+hacker@globbing~matching-with-:/challenge/files$ /challenge/run file_[bash]
 You got it! Here is your flag!
-pwn.college{k3m3QaRivz8FJ7OCmZzYcMwwRXk.dRjM4QDL5EzN0czW}
+pwn.college{YXrnCyjU3bldeQz1eNErQw0EWCb.dNjM4QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{k3m3QaRivz8FJ7OCmZzYcMwwRXk.dRjM4QDL5EzN0czW}`
+**Flag:** `pwn.college{YXrnCyjU3bldeQz1eNErQw0EWCb.dNjM4QDL5EzN0czW}`
 ## New Learning
 ## Reference
