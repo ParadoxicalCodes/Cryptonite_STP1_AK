@@ -14,7 +14,7 @@ To practice, run /challenge/run with an append-mode redirect of the output to th
 
 Go for it now!
 # Thought Process & Solution
-
+I just appended the output of run program to the destination file. Then catting file gives us our complete flag.
 ```bash
 hacker@piping~appending-output:~$ /challenge/run >> ~/the-flag
 [INFO] WELCOME! This challenge makes the following asks of you:
