@@ -9,7 +9,7 @@ Here is this level's documentation for /challenge/challenge:
 
 Given that documentation, go get the flag!
 # Thought Process & Solution
-
+I first ran the command with no arguments just to see if there are any other hints i missed -  no hints. Next i used --printfile argument to print description.md as told in description - for any hints. Then here i got confused what argument would yield me the flag decided to just print /challenge/challenge which gives me a script but i couldnt glean any useful hints. So next i decided to print /challenge/flag but no file exists which led me to reaLise our flag is saved as /flag why would it be in /challenge/flag.
 ```bash
 hacker@man~learning-complex-usage:~$ ls /challenge/challenge
 /challenge/challenge
@@ -60,7 +60,6 @@ Correct argument! Here is the /challenge/flag file:
 cat: /challenge/flag: No such file or directory
 hacker@man~learning-complex-usage:~$ /challenge/challenge --printfile
 You must pass a file for --printfile to read!
-hacker@man~learning-complex-usage:~$ 
 hacker@man~learning-complex-usage:~$ /challenge/challenge --printfile /flag
 Correct argument! Here is the /flag file:
 pwn.college{0KUvPQebMO5VDGqN6-lhnS4wcsO.dVjM5QDL5EzN0czW}
