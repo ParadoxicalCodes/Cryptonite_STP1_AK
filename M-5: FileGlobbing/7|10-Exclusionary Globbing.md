@@ -24,6 +24,6 @@ hacker@globbing~exclusionary-globbing:/challenge/files$ /c*/r* [!pwn]*
 You got it! Here is your flag!
 pwn.college{U80ErmBFJa9_SlN1_83o14xH_j-.dZjM4QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{U80ErmBFJa9_SlN1_83o14xH_j-.dZjM4QDL5EzN0czW}`
 ## New Learning
 ## Reference
