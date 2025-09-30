@@ -15,6 +15,26 @@ hacker@dojo:~$
 ```
 Now, you try it! In this level, /challenge/run will print the flag but will swap the casing of all characters (e.g., A will become a and vice-versa). Can you undo it with tr and get the flag?
 # Thought Process & Solution
+## Attempt 1 (fail)
+The first two tries i understood the whole question incorrectly -  im supposed to toggling all the cases. So i outputted the inccorect flag with /challenge/run then took note of capitalized letters and reversed them with others. But somehow the flag is wrong?
+```bash
+hacker@data~translating-characters:~$ /challenge/run | tr ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
+your case-swapped flag:
+pwn.college{817dwiyrevnsctfpa3mvxtcm4nt.qxzetm3edl5ezn0czw}
+
+hacker@data~translating-characters:~$ /challenge/run | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
+YOUR CASE-SWAPPED FLAG:
+PWN.COLLEGE{817DWIYREVNSCTFPA3MVXTCM4NT.QXZETM3EDL5EZN0CZW}
+
+hacker@data~translating-characters:~$ /challenge/run
+Your case-swapped flag:
+PWN.COLLEGE{817dwiyReVnSCTfpa3mvxtcM4nt.qxZetm3edl5eZn0CZw}
+
+hacker@data~translating-characters:~$ /challenge/run | tr abCdEfGhijkLMNOPqRSTuVWxyZ ABcDeFgHIJKlmnopQrstUvwXYz
+YoUr cAse-swAppeD FlAg:
+pwn.college{817DwIYrevnsctFpA3mvXtcm4nt.QXzetm3eDl5ezn0czw}
+```
+## Attempt2
 
 ```bash
 
