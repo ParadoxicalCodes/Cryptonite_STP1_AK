@@ -14,6 +14,6 @@ hacker@man~searching-manuals:~$ /challenge/challenge --yxmbz
 Initializing...
 Correct usage! Your flag: pwn.college{0KTBPXDWA9P-FMVOCNKvH_qDGTy.dVTM4QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{0KTBPXDWA9P-FMVOCNKvH_qDGTy.dVTM4QDL5EzN0czW}`
 ## New Learning
 ## Reference
