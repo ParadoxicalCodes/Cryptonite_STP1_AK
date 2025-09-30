@@ -26,8 +26,10 @@ This challenge's /challenge/pwn outputs a bunch of data, and you'll need to pipe
 # Thought Process & Solution
 
 ```bash
-
+hacker@data~extracting-the-first-lines-with-head:~$ /challenge/pwn | head -n 7 | /challenge/college
+Congratulations, you piped the right codes!
+pwn.college{owDcslgM3OYCBD0gROvCC4lqCaW.QX2ETM3EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{owDcslgM3OYCBD0gROvCC4lqCaW.QX2ETM3EDL5EzN0czW}`
 ## New Learning
 ## Reference
