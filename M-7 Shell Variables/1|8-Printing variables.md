@@ -15,8 +15,9 @@ Now it's your turn. Have your shell print out the FLAG variable and solve this c
 # Thought Process & Solution
 
 ```bash
-
+hacker@variables~printing-variables:~$ cat $FLAG
+cat: pwn.college{kZxLytKDqOQghgbnouuz10fT6dS.ddTN1QDL5EzN0czW}: No such file or directory
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{kZxLytKDqOQghgbnouuz10fT6dS.ddTN1QDL5EzN0czW}`
 ## New Learning
 ## Reference
