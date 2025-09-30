@@ -19,8 +19,10 @@ What happened there? The example redirects some_file into the standard input of 
 # Thought Process & Solution
 
 ```bash
-
+hacker@variables~reading-files:~$ read PWN < /challenge/read_me
+You've set the PWN variable properly! As promised, here is the flag:
+pwn.college{YKkQY_rueuNQrlZgmPy8qJaKKKN.dBjM4QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{YKkQY_rueuNQrlZgmPy8qJaKKKN.dBjM4QDL5EzN0czW}`
 ## New Learning
 ## Reference
