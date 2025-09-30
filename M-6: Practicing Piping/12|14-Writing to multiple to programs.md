@@ -45,8 +45,23 @@ Now it's your turn! In this challenge, we have /challenge/hack, /challenge/the, 
 # Thought Process & Solution
 
 ```bash
-
+hacker@piping~writing-to-multiple-programs:~$ /challenge/hack | tee <(/challenge/the) <(/challenge/planet)
+This secret data must directly and simultaneously make it to /challenge/the and 
+/challenge/planet. Don't try to copy-paste it; it changes too fast.
+272981712477384848
+Are you sure you're properly redirecting input into '/challenge/planet'?
+Are you sure you're properly redirecting input into '/challenge/the'?
+hacker@piping~writing-to-multiple-programs:~$ /challenge/hack | tee <(/challenge/the) | <(/challenge/planet)
+bash: /dev/fd/63: Permission denied
+Are you sure you're properly redirecting input into '/challenge/the'?
+hacker@piping~writing-to-multiple-programs:~$ /challenge/hack | tee >(/challenge/the) >(/challenge/planet)
+This secret data must directly and simultaneously make it to /challenge/the and 
+/challenge/planet. Don't try to copy-paste it; it changes too fast.
+15304207222797932386
+Congratulations, you have duplicated data into the input of two programs! Here 
+is your flag:
+pwn.college{4al5Th-0yLU-rR986hSF8roncf7.dBDO0UDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{4al5Th-0yLU-rR986hSF8roncf7.dBDO0UDL5EzN0czW}`
 ## New Learning
 ## Reference
