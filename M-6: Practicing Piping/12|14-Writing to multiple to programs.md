@@ -40,6 +40,7 @@ Above, the following sequence of events took place:
   3. bash used the echo builtin to print HACK into tee's standard input
   4. tee read HACK, wrote it to standard output, and then wrote it to /dev/fd/63 (which is connected to rev's stdin)
   5. rev read HACK from its standard input, reversed it, and wrote KCAH to standard output
+
 Now it's your turn! In this challenge, we have /challenge/hack, /challenge/the, and /challenge/planet. Run the /challenge/hack command, and duplicate its output as input to both the /challenge/the and the /challenge/planet commands! Scroll back through the previous challenges "Duplicating piped data with tee" and "Process substitution for input" if you need a refresher on this method.
 # Thought Process & Solution
 
