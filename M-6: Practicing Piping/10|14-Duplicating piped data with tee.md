@@ -26,8 +26,21 @@ Now, you try it! This process' /challenge/pwn must be piped into /challenge/coll
 # Thought Process & Solution
 
 ```bash
+hacker@piping~duplicating-piped-data-with-tee:~$ /challenge/pwn | tee need.txt | /challenge/college
+Processing...
+The input to 'college' does not contain the correct secret code! This code 
+should be provided by the 'pwn' command. HINT: use 'tee' to intercept the 
+output of 'pwn' and figure out what the code needs to be.
+hacker@piping~duplicating-piped-data-with-tee:~$ cat need.txt
+Usage: /challenge/pwn --secret [SECRET_ARG]
 
+SECRET_ARG should be "gevp4ac-"
+hacker@piping~duplicating-piped-data-with-tee:~$ /challenge/pwn --secret gevp4ac- | /challenge/college
+Processing...
+Correct! Passing secret value to /challenge/college...
+Great job! Here is your flag:
+pwn.college{gevp4ac-RiJK_FHlorj1BXnacT-.dFjM5QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{gevp4ac-RiJK_FHlorj1BXnacT-.dFjM5QDL5EzN0czW}`
 ## New Learning
 ## Reference
