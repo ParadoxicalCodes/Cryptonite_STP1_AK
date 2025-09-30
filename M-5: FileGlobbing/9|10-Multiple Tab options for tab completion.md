@@ -25,6 +25,6 @@ pwncollege-flag      pwncollege-flamingo
 hacker@globbing~multiple-options-for-tab-completion:~$ cat /challenge/files/pwncollege-flag
 pwn.college{Yre_8raop69ys5z2aKjBlcPZmYv.QX2QTM3EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{Yre_8raop69ys5z2aKjBlcPZmYv.QX2QTM3EDL5EzN0czW}`
 ## New Learning
 ## Reference
