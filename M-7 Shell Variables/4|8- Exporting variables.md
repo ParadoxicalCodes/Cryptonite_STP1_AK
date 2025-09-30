@@ -29,8 +29,19 @@ In this challenge, you must invoke /challenge/run with the PWN variable exported
 # Thought Process & Solution
 
 ```bash
-
+hacker@variables~exporting-variables:~$ export PWN=COLLEGE
+You've set the PWN variable to the proper value!
+hacker@variables~exporting-variables:~$ COLLEGE=PWN
+You've set the PWN variable to the proper value!
+You've set the COLLEGE variable to the proper value!
+hacker@variables~exporting-variables:~$ /challenge/run
+CORRECT!
+You have exported PWN=COLLEGE and set, but not exported, COLLEGE=PWN. Great 
+job! Here is your flag:
+pwn.college{MIIV7clR5ztv1wE2BzjgyMS_4LL.dJjN1QDL5EzN0czW}
+You've set the PWN variable to the proper value!
+You've set the COLLEGE variable to the proper value!
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{MIIV7clR5ztv1wE2BzjgyMS_4LL.dJjN1QDL5EzN0czW}`
 ## New Learning
 ## Reference
