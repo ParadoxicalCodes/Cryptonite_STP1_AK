@@ -15,6 +15,36 @@ In this challenge, you have:
 
 Go get the flag!
 # Thought Process & Solution
+## Attempt 1 (fail)
+
+```bash
+hacker@piping~split-piping-stderr-and-stdout:~$ /challenge/hack | tee >(/challenge/planet) 2>&1>(/challenge/the)
+bash: 1/dev/fd/61: ambiguous redirect
+Are you sure you're properly redirecting /challenge/hack's standard error into 
+'/challenge/the'?
+You must redirect my standard error into '/challenge/the'!
+Are you sure you're properly redirecting /challenge/hack's standard error into 
+'/challenge/the'?
+Are you sure you're properly redirecting /challenge/hack's standard output into 
+'/challenge/planet'?
+hacker@piping~split-piping-stderr-and-stdout:~$ /challenge/hack | tee 2>(/challenge/the) >(/challenge/planet)
+tee: 2/dev/fd/63: No such file or directory
+This secret data must directly make it to /challenge/planet over my stdout. 
+Don't try to copy-paste it; it changes too fast.
+23002318133658560
+You must redirect my standard error into '/challenge/the'!
+Are you sure you're properly redirecting /challenge/hack's standard error into 
+'/challenge/the'?
+hacker@piping~split-piping-stderr-and-stdout:~$ /challenge/hack | tee >(/challenge/planet) 2>(/challenge/the)
+tee: 2/dev/fd/62: No such file or directory
+This secret data must directly make it to /challenge/planet over my stdout. 
+Don't try to copy-paste it; it changes too fast.
+5576121242939023844
+You must redirect my standard error into '/challenge/the'!
+Are you sure you're properly redirecting /challenge/hack's standard error into 
+```
+
+## Attempt 2
 
 ```bash
 
