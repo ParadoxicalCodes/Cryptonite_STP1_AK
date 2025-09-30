@@ -47,6 +47,7 @@ Are you sure you're properly redirecting /challenge/hack's standard error into
 ## Attempt 2
 So i got confused here for hints went back for previous challenges and in there it discussed another method of process of substitution which looked something like this - "some_cmd > >(cmd)" something like this and at first i didnt understand what it was trying so told chatgpt to explain and i understood then what i had to do and what was the mistake i was committing.
 
+<img width="974" height="635" alt="image" src="https://github.com/user-attachments/assets/43c66474-9280-4367-94c4-bb0b1bf9f096" />
 
 
 ```bash
