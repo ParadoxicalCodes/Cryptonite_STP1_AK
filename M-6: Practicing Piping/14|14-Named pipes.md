@@ -41,9 +41,24 @@ This challenge will be a simple introduction to FIFOs. You'll need to create a /
 HINT: The blocking behavior of FIFOs makes it hard to solve this challenge in a single terminal. You may want to use the Desktop or VSCode mode for this challenge so that you can launch two terminals.
 # Thought Process & Solution
 
+> Terminal 1
 ```bash
-
+hacker@piping~named-pipes:~$ mkfifo /tmp/flag_fifo
+hacker@piping~named-pipes:~$ /challenge/run > /tmp/flag_fifo
+You're successfully redirecting /challenge/run to a FIFO at /tmp/flag_fifo! 
+Bash will now try to open the FIFO for writing, to pass it as the stdout of 
+/challenge/run. Recall that operations on FIFOs will *block* until both the 
+read side and the write side is open, so /challenge/run will not actually be 
+launched until you start reading from the FIFO!
 ```
-**Flag:** `pwn.college{}`
+
+> Terminal 2
+```bash
+hacker@piping~named-pipes:~$ cat /tmp/flag_fifo
+You've correctly redirected /challenge/run's stdout to a FIFO at 
+/tmp/flag_fifo! Here is your flag:
+pwn.college{MbUktT5FOwrpq5d2Lk4ujJYI_SG.QXzMzM4EDL5EzN0czW}
+```
+**Flag:** `pwn.college{pwn.college{MbUktT5FOwrpq5d2Lk4ujJYI_SG.QXzMzM4EDL5EzN0czW}}`
 ## New Learning
 ## Reference
