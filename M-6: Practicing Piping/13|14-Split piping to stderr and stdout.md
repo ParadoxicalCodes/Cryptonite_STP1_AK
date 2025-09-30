@@ -45,10 +45,27 @@ Are you sure you're properly redirecting /challenge/hack's standard error into
 ```
 
 ## Attempt 2
+So i got confused here for hints went back for previous challenges and in there it discussed another method of process of substitution which looked something like this - "some_cmd > >(cmd)" something like this and at first i didnt understand what it was trying so told chatgpt to explain and i understood then what i had to do and what was the mistake i was committing.
+
+
 
 ```bash
-
+hacker@piping~split-piping-stderr-and-stdout:~$ /challenge/hack 2> >(/challenge/hack) | tee >(/challenge/planet)
+This secret data must directly make it to /challenge/planet over my stdout. 
+Don't try to copy-paste it; it changes too fast.
+This secret data must directly make it to /challenge/planet over my stdout. 
+Don't try to copy-paste it; it changes too fast.
+16945113382008016764
+16945113382008016764
+You must redirect my standard error into '/challenge/the'!
+hacker@piping~split-piping-stderr-and-stdout:~$ /challenge/hack 2> >(/challenge/the) | tee >(/challenge/planet)
+This secret data must directly make it to /challenge/planet over my stdout. 
+Don't try to copy-paste it; it changes too fast.
+4462300541407828943
+Congratulations, you have learned a redirection technique that even experts 
+struggle with! Here is your flag:
+pwn.college{8bOSdeOlSX6FCfUMngijXhq8_Vg.dFDNwYDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{8bOSdeOlSX6FCfUMngijXhq8_Vg.dFDNwYDL5EzN0czW}`
 ## New Learning
 ## Reference
