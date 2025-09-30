@@ -35,9 +35,11 @@ YoUr cAse-swAppeD FlAg:
 pwn.college{817DwIYrevnsctFpA3mvXtcm4nt.QXzetm3eDl5ezn0czw}
 ```
 ## Attempt2
-
+I see the issue now i just toggled those letters that were capitalized?
 ```bash
-
+hacker@data~translating-characters:~$ /challenge/run | tr abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+yOUR CASE-SWAPPED FLAG:
+pwn.college{817DWIYrEvNsctFPA3MVXTCm4NT.QXzETM3EDL5EzN0czW}
 ```
 **Flag:** `pwn.college{}`
 ## New Learning
