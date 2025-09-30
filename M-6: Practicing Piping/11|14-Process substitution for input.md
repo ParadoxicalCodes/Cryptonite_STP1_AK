@@ -34,8 +34,10 @@ Use process substitution with diff to compare the outputs of these two programs 
 # Thought Process & Solution
 
 ```bash
-
+hacker@piping~process-substitution-for-input:~$ diff <(/challenge/print_decoys) <(/challenge/print_decoys_and_flag)
+28a29
+> pwn.college{8uU3R2-tYx1BEKbCja3P7sYCczd.QX2AzM4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{8uU3R2-tYx1BEKbCja3P7sYCczd.QX2AzM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
