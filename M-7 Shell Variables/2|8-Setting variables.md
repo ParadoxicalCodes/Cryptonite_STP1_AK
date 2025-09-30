@@ -16,8 +16,10 @@ To solve this level, you must set the PWN variable to the value COLLEGE. Be care
 # Thought Process & Solution
 
 ```bash
-
+hacker@variables~setting-variables:~$ PWN=COLLEGE
+You've set the PWN variable properly! As promised, here is the flag:
+pwn.college{gLVxSwGI8Ozj3WEZeofF3uMme7o.dlTN1QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{gLVxSwGI8Ozj3WEZeofF3uMme7o.dlTN1QDL5EzN0czW}`
 ## New Learning
 ## Reference
