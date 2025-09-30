@@ -19,6 +19,6 @@ the value 'COLLEGE' out of it!
 Here is your flag:
 pwn.college{Qm8s9N4_0s1VygmISmlZW0yQGEr.dBzN1QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{Qm8s9N4_0s1VygmISmlZW0yQGEr.dBzN1QDL5EzN0czW}}`
 ## New Learning
 ## Reference
