@@ -14,8 +14,44 @@ Fun fact! Want to actually replace a backslash (\) character? Because \ is the e
 # Thought Process & Solution
 
 ```bash
-
+hacker@data~deleting-newlines:~$ /challenge/run
+Your line-split flag: 
+p
+wn
+.
+c
+o
+ll
+e
+g
+e{
+Y
+3
+nNq
+ECu
+pL
+X
+l
+n
+7hyh
+D
+1Yy
+d
+1rN
+J
+y.QX1ET
+M
+3
+E
+DL
+5
+Ez
+N
+0cz
+W}
+hacker@data~deleting-newlines:~$ /challenge/run | tr -d "\n"
+Your line-split flag: pwn.college{Y3nNqECupLXln7hyhD1Yyd1rNJy.QX1ETM3EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{Y3nNqECupLXln7hyhD1Yyd1rNJy.QX1ETM3EDL5EzN0czW}`
 ## New Learning
 ## Reference
