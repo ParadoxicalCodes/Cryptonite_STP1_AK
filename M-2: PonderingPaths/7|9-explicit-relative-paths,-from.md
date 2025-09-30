@@ -36,6 +36,6 @@ hacker@paths~explicit-relative-paths-from-:/$ ls
 bin   challenge  etc   home  lib32  libx32  mnt  opt   root  sbin  sys  usr
 boot  dev        flag  lib   lib64  media   nix  proc  run   srv   tmp  var
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{Im_-FKukQZFmLKPDptgGDnwzKwe.dBTN1QDL5EzN0czW}`
 ## New Learning
 ## Reference
