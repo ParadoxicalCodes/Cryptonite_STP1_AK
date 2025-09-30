@@ -15,8 +15,10 @@ Here, the shell reads 1337 SAUCE as a single token, and happily sets that value 
 # Thought Process & Solution
 
 ```bash
-
+hacker@variables~multi-word-variables:~$ PWN="COLLEGE YEAH"
+You've set the PWN variable properly! As promised, here is the flag:
+pwn.college{opGpE3rsY51lPLWRfEqvLdBKCxM.dBjN1QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{opGpE3rsY51lPLWRfEqvLdBKCxM.dBjN1QDL5EzN0czW}`
 ## New Learning
 ## Reference
