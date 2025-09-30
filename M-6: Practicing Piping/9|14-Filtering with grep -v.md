@@ -14,8 +14,9 @@ Use grep -v to filter out all the lines containing "DECOY" and reveal the real f
 # Thought Process & Solution
 
 ```bash
-
+hacker@piping~filtering-with-grep-v:~$ /challenge/run | grep -v DECOY
+pwn.college{o34TjEGW2U_DmtIf5EF8PTddPr8.QX4ETM3EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{o34TjEGW2U_DmtIf5EF8PTddPr8.QX4ETM3EDL5EzN0czW}`
 ## New Learning
 ## Reference
