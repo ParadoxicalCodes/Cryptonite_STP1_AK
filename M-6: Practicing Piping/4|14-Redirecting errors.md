@@ -50,6 +50,6 @@ hacker@piping~redirecting-errors:~$ cat instructions
 [PASS] The file at the other end of my stderr looks okay!
 [PASS] Success! You have satisfied all execution requirements.
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{wCX5jK5Mi_aXZvAdSqZnwgRhGjQ.ddjN1QDL5EzN0czW}`
 ## New Learning
 ## Reference
