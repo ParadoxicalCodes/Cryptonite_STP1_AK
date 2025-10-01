@@ -8,8 +8,13 @@ For the very interested, check out this article about terminals and "control cod
 # Thought Process & Solution
 
 ```bash
-
+hacker@processes~interrupting-processes:~$ /challenge/run
+I could give you the flag... but I won't, until this process exits. Remember, 
+you can force me to exit with Ctrl-C. Try it now!
+^C
+Good job! You have used Ctrl-C to interrupt this process! Here is your flag:
+pwn.college{8O2zx51iIu-P2PpOqq65kDBGLuM.dNDN4QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{8O2zx51iIu-P2PpOqq65kDBGLuM.dNDN4QDL5EzN0czW}`
 ## New Learning
 ## Reference
