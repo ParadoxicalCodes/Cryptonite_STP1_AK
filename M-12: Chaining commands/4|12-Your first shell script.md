@@ -28,8 +28,12 @@ NOTE: We haven't yet talked about Linux's amazing array of competent command lin
 # Thought Process & Solution
 
 ```bash
+hacker@chaining~your-first-shell-script:~$ nano x.sh
+hacker@chaining~your-first-shell-script:~$ bash x.sh
+Great job, you've written your first shell script! Here is the flag:
+pwn.college{8TVVXR_Eib2vgtdqYuC-BdF3LpO.dFzN4QDL5EzN0czW}
 
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{8TVVXR_Eib2vgtdqYuC-BdF3LpO.dFzN4QDL5EzN0czW}`
 ## New Learning
 ## Reference
