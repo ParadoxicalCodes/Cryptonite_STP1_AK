@@ -9,8 +9,12 @@ Awesome! In this level, you must switch to the zardus user and then run /challen
 # Thought Process & Solution
 
 ```bash
-
+hacker@users~other-users-with-su:~$ su zardus
+Password: 
+zardus@users~other-users-with-su:/home/hacker$ /challenge/run
+Congratulations, you have become Zardus! Here is your flag:
+pwn.college{I71Hv0KJNPlrUcM5D7xwha2UbDb.dZTN0UDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{I71Hv0KJNPlrUcM5D7xwha2UbDb.dZTN0UDL5EzN0czW}`
 ## New Learning
 ## Reference
