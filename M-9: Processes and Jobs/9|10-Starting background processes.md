@@ -14,8 +14,19 @@ Here, sleep is actively running in the background, not suspended. Now it's your 
 # Thought Process & Solution
 
 ```bash
+hacker@processes~starting-backgrounded-processes:~$ /challenge/run &
+[1] 163
+hacker@processes~starting-backgrounded-processes:~$ 
 
+
+Yay, you started me in the background! Because of that, this text will probably 
+overlap weirdly with the shell prompt, but you're used to that by now...
+
+Anyways! Here is your flag!
+pwn.college{UfYE0azlo_sZaa8Mhkpr9hFD97l.dlDN4QDL5EzN0czW}
+
+[1]+  Done                    /challenge/run
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{UfYE0azlo_sZaa8Mhkpr9hFD97l.dlDN4QDL5EzN0czW}`
 ## New Learning
 ## Reference
