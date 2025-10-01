@@ -18,8 +18,14 @@ In this challenge, you must retrieve the exit code returned by /challenge/get-co
 # Thought Process & Solution
 
 ```bash
-
+hacker@processes~process-exit-codes:~$ /challenge/get-code
+Exiting with an error code!
+hacker@processes~process-exit-codes:~$ echo $?
+132
+hacker@processes~process-exit-codes:~$ /challenge/submit-code 132
+CORRECT! Here is your flag:
+pwn.college{oNiN59qDThjDRFOiTw33HmUxxdj.dljN4UDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{oNiN59qDThjDRFOiTw33HmUxxdj.dljN4UDL5EzN0czW}`
 ## New Learning
 ## Reference
