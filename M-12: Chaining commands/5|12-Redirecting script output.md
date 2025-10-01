@@ -18,8 +18,22 @@ In this level, we will practice piping (|) from your script to another program. 
 # Thought Process & Solution
 
 ```bash
-
+hacker@chaining~redirecting-script-output:~$ ls
+COLLEGE  a.sh            flaggg.txt    myflag        output.txt  pwn_output  tee       x.sh
+Desktop  cd              instructions  need.txt      planet      rm          the
+PWN      college_output  leap          not-the-flag  pwn         t           the-flag
+hacker@chaining~redirecting-script-output:~$ cat a.sh
+/challenge/solve
+hacker@chaining~redirecting-script-output:~$ cat x.sh
+/challenge/pwn; /challenge/college
+hacker@chaining~redirecting-script-output:~$ bash x.sh > /challenge/solve
+No shenanigans with bash options yet, please! Just run your script with 'bash 
+x.sh'.
+bash: /challenge/solve: Permission denied
+hacker@chaining~redirecting-script-output:~$ bash x.sh | /challenge/solve
+Correct! Here is your flag:
+pwn.college{kOWvYvhSxxliU7evF2H21-u8_41.dhTM5QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{kOWvYvhSxxliU7evF2H21-u8_41.dhTM5QDL5EzN0czW}`
 ## New Learning
 ## Reference
