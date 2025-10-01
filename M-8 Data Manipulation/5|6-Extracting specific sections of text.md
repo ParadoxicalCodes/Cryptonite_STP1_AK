@@ -94,6 +94,6 @@ hacker@data~extracting-specific-sections-of-text:~$ /challenge/run | cut -d "" -
 hacker@data~extracting-specific-sections-of-text:~$ /challenge/run | cut -d " " -f 2 | tr -d "\n"
 pwn.college{kAfmCg3X4KiIxTyHlFum_dtZdEN.QX3ETM3EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{kAfmCg3X4KiIxTyHlFum_dtZdEN.QX3ETM3EDL5EzN0czW}`
 ## New Learning
 ## Reference
