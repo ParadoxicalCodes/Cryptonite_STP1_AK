@@ -17,8 +17,21 @@ Now, it's time to terminate your first process! In this challenge, /challenge/ru
 # Thought Process & Solution
 
 ```bash
-
+hacker@processes~killing-processes:~$ ps auxww
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.0   1056   640 ?        Ss   01:54   0:00 /sbin/docker-init -- /nix/var/nix/profiles/dojo-workspace/bin/dojo-init /run/dojo/bin/sleep 6h
+root           7  0.0  0.0 231708  2560 ?        S    01:54   0:00 /run/dojo/bin/sleep 6h
+root         135  0.0  0.0   5204  3520 ?        S    01:54   0:00 su -c /challenge/.launcher hacker
+hacker       136  0.0  0.0 231576  2880 ?        Ss   01:54   0:00 /challenge/dont_run
+hacker       137  0.0  0.0 231708  2560 ?        S    01:54   0:00 sleep 6h
+hacker       139  0.0  0.0 231576  3520 pts/0    Ss   01:54   0:00 /nix/store/0nxvi9r5ymdlr2p24rjj9qzyms72zld1-bash-interactive-5.2p37/bin/bash /run/dojo/bin/ssh-entrypoint
+hacker       145  0.0  0.0 231940  4160 pts/0    S    01:54   0:00 /run/dojo/bin/bash --login
+hacker       159  0.0  0.0 233600  3840 pts/0    R+   01:55   0:00 ps auxww
+hacker@processes~killing-processes:~$ kill 136
+hacker@processes~killing-processes:~$ /challenge/run
+Great job! Here is your payment:
+pwn.college{IBRqI-HEagvEx3w2432f3I_L15s.dJDN4QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{IBRqI-HEagvEx3w2432f3I_L15s.dJDN4QDL5EzN0czW}`
 ## New Learning
 ## Reference
