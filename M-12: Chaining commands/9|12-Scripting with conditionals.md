@@ -29,8 +29,37 @@ NOTE: Interested in what else you can check in a condition, other than string eq
 # Thought Process & Solution
 
 ```bash
+hacker@chaining~scripting-with-conditionals:~$ nano ~/solve.sh
+hacker@chaining~scripting-with-conditionals:~$ cat ~/solve.sh
+#!/bin/bash
 
+if ["$1" == "pwn"]
+then
+	echo "college"
+fi
+hacker@chaining~scripting-with-conditionals:~$ bash ~/solve.sh hi
+/home/hacker/solve.sh: line 3: [hi: command not found
+hacker@chaining~scripting-with-conditionals:~$ bash ~/solve.sh pwn
+/home/hacker/solve.sh: line 3: [pwn: command not found
+hacker@chaining~scripting-with-conditionals:~$ nano ~/solve.sh
+hacker@chaining~scripting-with-conditionals:~$ bash ~/solve.sh pwn
+/home/hacker/solve.sh: line 3: [: missing `]'
+hacker@chaining~scripting-with-conditionals:~$ nano ~/solve.sh
+hacker@chaining~scripting-with-conditionals:~$ cat ~/solve.sh
+#!/bin/bash
+
+if [ "$1" == "pwn" ]
+then
+	echo "college"
+fi
+hacker@chaining~scripting-with-conditionals:~$ bash ~/solve.sh pwn
+college
+hacker@chaining~scripting-with-conditionals:~$ bash ~/solve.sh hi
+hacker@chaining~scripting-with-conditionals:~$ /challenge/run
+Correct! Your script properly handles all the conditions.
+Here's your flag:
+pwn.college{kT-yjD_7U7hJMo03TzH7QHMn-hT.QX2MzM4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{kT-yjD_7U7hJMo03TzH7QHMn-hT.QX2MzM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
