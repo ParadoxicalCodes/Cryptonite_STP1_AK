@@ -22,8 +22,20 @@ But THIS challenge (and only this challenge) does have a root password. That pas
 # Thought Process & Solution
 
 ```bash
-
+hacker@users~becoming-root-with-su:~$ su
+Password: 
+root@users~becoming-root-with-su:/home/hacker# ls -a
+.              .bashrc  .lesshst  Desktop         flaggg.txt    not-the-flag  rm        x.sh
+..             .cache   .local    PWN             instructions  output.txt    t
+.ICEauthority  .config  .mozilla  a.sh            leap          planet        tee
+.bash_history  .dbus    .profile  cd              myflag        pwn           the
+.bash_logout   .john    COLLEGE   college_output  need.txt      pwn_output    the-flag
+root@users~becoming-root-with-su:/home/hacker# ls -a /
+.   .dockerenv  boot       dev  flag  lib    lib64   media  nix  proc  run   srv  tmp  var
+..  bin         challenge  etc  home  lib32  libx32  mnt    opt  root  sbin  sys  usr
+root@users~becoming-root-with-su:/home/hacker# cat /flag
+pwn.college{wBSFX6W5p_XOZoKuUU5cwus-bUB.dVTN0UDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{wBSFX6W5p_XOZoKuUU5cwus-bUB.dVTN0UDL5EzN0czW}`
 ## New Learning
 ## Reference
