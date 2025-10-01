@@ -32,8 +32,22 @@ FUN FACT: Common shebangs you might see:
 # Thought Process & Solution
 
 ```bash
-
+hacker@chaining~understanding-shebangs:~$ ls
+COLLEGE  a.sh            flaggg.txt    myflag        output.txt  pwn_output  tee       x.sh
+Desktop  cd              instructions  need.txt      planet      rm          the
+PWN      college_output  leap          not-the-flag  pwn         t           the-flag
+hacker@chaining~understanding-shebangs:~$ ls /
+bin   challenge  etc   home  lib32  libx32  mnt  opt   root  sbin  sys  usr
+boot  dev        flag  lib   lib64  media   nix  proc  run   srv   tmp  var
+hacker@chaining~understanding-shebangs:~$ cat ~/solve.sh
+cat: /home/hacker/solve.sh: No such file or directory
+hacker@chaining~understanding-shebangs:~$ nano ~/solve.sh
+hacker@chaining~understanding-shebangs:~$ chmod a+x ~/solve.sh
+hacker@chaining~understanding-shebangs:~$ /challenge/run
+Testing your script...
+Perfect! Your flag:
+Flag: pwn.college{4OrkQoC-xXYJDTNu7TQl9EaAiiC.QX5MzM4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{4OrkQoC-xXYJDTNu7TQl9EaAiiC.QX5MzM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
