@@ -22,8 +22,13 @@ In this challenge, the /challenge/run program will give you the flag, but you mu
 # Thought Process & Solution
 
 ```bash
-
+hacker@permissions~executable-files:~$ ls -l /challenge/run
+-r--r-xr-x 1 hacker hacker 32 Jan 14  2025 /challenge/run
+hacker@permissions~executable-files:~$ chmod u+x /challenge/run
+hacker@permissions~executable-files:~$ /challenge/run
+Successful execution! Here is your flag:
+pwn.college{kxc5-fFf6fywDYcN6Oszta71F2b.dJTM2QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{kxc5-fFf6fywDYcN6Oszta71F2b.dJTM2QDL5EzN0czW}`
 ## New Learning
 ## Reference
