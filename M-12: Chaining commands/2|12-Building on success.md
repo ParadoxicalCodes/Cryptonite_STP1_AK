@@ -24,8 +24,16 @@ In this challenge, you need to chain the programs /challenge/first-success and /
 # Thought Process & Solution
 
 ```bash
+hacker@chaining~building-on-success:~$ /challenge/first-success
+
+hacker@chaining~building-on-success:~$ 
+hacker@chaining~building-on-success:~$ /challenge/second
+Error: /challenge/first-success must be successfully chained with 
+/challenge/second using &&
+hacker@chaining~building-on-success:~$ /challenge/first-success && /challenge/second
+Nice chaining! Flag: pwn.college{kiu-mRuejivRjPXL_drr0nCZZGc.QXyQzM4EDL5EzN0czW}
 
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{kiu-mRuejivRjPXL_drr0nCZZGc.QXyQzM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
