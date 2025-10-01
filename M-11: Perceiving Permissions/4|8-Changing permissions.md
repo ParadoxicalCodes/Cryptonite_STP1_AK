@@ -78,8 +78,17 @@ In this challenge, you must change the permissions of the /flag file to read it!
 # Thought Process & Solution
 
 ```bash
-
+hacker@permissions~changing-permissions:~$ ls -l /flag
+-r-------- 1 root root 58 Oct  1 15:07 /flag
+hacker@permissions~changing-permissions:~$ chmod g+r /flag
+hacker@permissions~changing-permissions:~$ cat /flag
+cat: /flag: Permission denied
+hacker@permissions~changing-permissions:~$ ls -l /flag
+-r--r----- 1 root root 58 Oct  1 15:07 /flag
+hacker@permissions~changing-permissions:~$ chmod o+r /flag
+hacker@permissions~changing-permissions:~$ cat /flag
+pwn.college{MWlmGf89i7iQ0juBVM6q__O-zMe.dNzNyUDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{MWlmGf89i7iQ0juBVM6q__O-zMe.dNzNyUDL5EzN0czW}`
 ## New Learning
 ## Reference
