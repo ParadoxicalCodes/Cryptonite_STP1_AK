@@ -27,8 +27,9 @@ NOTE: After this level, we will enable Privileged Mode! When you launch a challe
 # Thought Process & Solution
 
 ```bash
-
+hacker@users~using-sudo:~$ sudo cat /flag
+pwn.college{8YZ62Jl3R7S64IqZpX9r_XLFXci.dhTN0UDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{8YZ62Jl3R7S64IqZpX9r_XLFXci.dhTN0UDL5EzN0czW}`
 ## New Learning
 ## Reference
