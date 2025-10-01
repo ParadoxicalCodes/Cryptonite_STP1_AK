@@ -53,8 +53,22 @@ This level simulates this story, giving you a leak of /etc/shadow (in /challenge
 # Thought Process & Solution
 
 ```bash
-
+hacker@users~cracking-passwords:~$ john ./challenge/shadow-leak
+stat: ./challenge/shadow-leak: No such file or directory
+hacker@users~cracking-passwords:~$ john /challenge/shadow-leak
+Loaded 1 password hash (crypt, generic crypt(3) [?/64])
+Press 'q' or Ctrl-C to abort, almost any other key for status
+0g 0:00:00:05 61% 1/3 0g/s 277.4p/s 277.4c/s 277.4C/s zardus80..Zardus75
+aardvark         (zardus)
+1g 0:00:00:20 100% 2/3 0.04780g/s 278.3p/s 278.3c/s 278.3C/s Johnson..buzz
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
+hacker@users~cracking-passwords:~$ su zardus
+Password: 
+zardus@users~cracking-passwords:/home/hacker$ /challenge/run
+Congratulations, you have become Zardus! Here is your flag:
+pwn.college{kMDiqMx0KCDI485WDSxVWMV_VuV.ddTN0UDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{kMDiqMx0KCDI485WDSxVWMV_VuV.ddTN0UDL5EzN0czW}`
 ## New Learning
 ## Reference
