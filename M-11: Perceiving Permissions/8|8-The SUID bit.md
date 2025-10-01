@@ -19,8 +19,13 @@ Now, we are going to let you add the SUID bit to the /challenge/getroot program 
 # Thought Process & Solution
 
 ```bash
-
+hacker@permissions~the-suid-bit:~$ chmod u+s /challenge/getroot
+hacker@permissions~the-suid-bit:~$ /challenge/getroot
+SUCCESS! You have set the suid bit on this program, and it is running as root! 
+Here is your shell...
+root@permissions~the-suid-bit:~# cat /flag
+pwn.college{srOwY9ZOPYftAQIoyka2iXhEXjN.dNTM2QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{srOwY9ZOPYftAQIoyka2iXhEXjN.dNTM2QDL5EzN0czW}`
 ## New Learning
 ## Reference
