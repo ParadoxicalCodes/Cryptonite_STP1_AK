@@ -35,8 +35,22 @@ Once your script works correctly, run /challenge/run to get your flag!
 # Thought Process & Solution
 
 ```bash
+hacker@chaining~scripting-with-arguments:~$ nano ~/solve.sh
+hacker@chaining~scripting-with-arguments:~$ cat ~/solve.sh
+#!/bin/bash
 
+val1=$1
+val2=$2
+echo "$val2 $val1"
+hacker@chaining~scripting-with-arguments:~$ bash ~/solve.sh pwn college
+college pwn
+hacker@chaining~scripting-with-arguments:~$ bash ~/solve.sh hi hello
+hello hi
+hacker@chaining~scripting-with-arguments:~$ /challenge/run
+Correct! Your script properly reversed the arguments.
+Here's your flag:
+pwn.college{8hfuE5KXHODGdhkKGPIexOdKrNd.QX1MzM4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{8hfuE5KXHODGdhkKGPIexOdKrNd.QX1MzM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
