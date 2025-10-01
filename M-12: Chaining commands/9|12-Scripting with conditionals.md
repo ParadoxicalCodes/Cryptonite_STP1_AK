@@ -27,7 +27,7 @@ Once your script works correctly, run /challenge/run to get your flag!
 
 NOTE: Interested in what else you can check in a condition, other than string equality? Read all about it with help test!
 # Thought Process & Solution
-
+The issue here was with spaces, i didnt realise i had to put space around "[" and "]"
 ```bash
 hacker@chaining~scripting-with-conditionals:~$ nano ~/solve.sh
 hacker@chaining~scripting-with-conditionals:~$ cat ~/solve.sh
