@@ -5,8 +5,12 @@ The point is, you've used hacker for the group before, but in this level, that i
 # Thought Process & Solution
 
 ```bash
-
+hacker@permissions~fun-with-groups-names:~$ id
+uid=1000(hacker) gid=1000(grp7701) groups=1000(grp7701)
+hacker@permissions~fun-with-groups-names:~$ chgrp grp7701 /flag
+hacker@permissions~fun-with-groups-names:~$ cat /flag
+pwn.college{orumF4Ww-7DjkN4m7hHv-1BrotA.dJzNyUDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{orumF4Ww-7DjkN4m7hHv-1BrotA.dJzNyUDL5EzN0czW}`
 ## New Learning
 ## Reference
