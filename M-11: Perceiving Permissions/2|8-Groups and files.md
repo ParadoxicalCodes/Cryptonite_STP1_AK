@@ -56,8 +56,12 @@ In this level, I have made the flag readable by whatever group owns it, but this
 # Thought Process & Solution
 
 ```bash
-
+hacker@permissions~groups-and-files:~$ ls -l /flag
+-r--r----- 1 root root 58 Oct  1 15:02 /flag
+hacker@permissions~groups-and-files:~$ chgrp hacker /flag
+hacker@permissions~groups-and-files:~$ cat /flag
+pwn.college{8lidWJxZh3CJEE6ioQczxFX1lgs.dFzNyUDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{8lidWJxZh3CJEE6ioQczxFX1lgs.dFzNyUDL5EzN0czW}`
 ## New Learning
 ## Reference
