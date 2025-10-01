@@ -18,8 +18,10 @@ Give it a try now! In this level, you must run /challenge/pwn and then /challeng
 # Thought Process & Solution
 
 ```bash
-
+hacker@chaining~chaining-with-semicolons:~$ /challenge/pwn;/challenge/college
+Yes! You chained /challenge/pwn and /challenge/college! Here is your flag:
+pwn.college{kI0aWGE9AMWse-gbu0MVYSyKWlb.dVTN4QDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{kI0aWGE9AMWse-gbu0MVYSyKWlb.dVTN4QDL5EzN0czW}`
 ## New Learning
 ## Reference
