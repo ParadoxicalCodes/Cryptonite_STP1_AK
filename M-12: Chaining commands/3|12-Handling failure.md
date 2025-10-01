@@ -21,8 +21,10 @@ In this challenge, you need to chain /challenge/first-failure and /challenge/sec
 # Thought Process & Solution
 
 ```bash
+hacker@chaining~handling-failure:~$ /challenge/first-failure || /challenge/second
+Nice chaining! Flag: pwn.college{8m5MCBKGI8qreHmfpfY44es2NLU.QXzQzM4EDL5EzN0czW}
 
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{8m5MCBKGI8qreHmfpfY44es2NLU.QXzQzM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
