@@ -5,8 +5,19 @@ Go try it out! This challenge's run needs you to suspend it, then resume it. Goo
 # Thought Process & Solution
 
 ```bash
+hacker@processes~resuming-processes:~$ /challenge/run
+Let's practice resuming processes! Suspend me with Ctrl-Z, then resume me with 
+the 'fg' command! Or just press Enter to quit me!
+^Z
+[1]+  Stopped                 /challenge/run
+hacker@processes~resuming-processes:~$ fg
+/challenge/run
+I'm back! Here's your flag:
+pwn.college{0w9jqYrlzgYEoWHfij2XSYQe9NO.dZDN4QDL5EzN0czW}
+Don't forget to press Enter to quit me!
 
+Goodbye!
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{0w9jqYrlzgYEoWHfij2XSYQe9NO.dZDN4QDL5EzN0czW}`
 ## New Learning
 ## Reference
