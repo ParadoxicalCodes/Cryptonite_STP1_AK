@@ -31,5 +31,5 @@ pwn.college{EZ-lApC3CvTDva7cICuSJjYy9TN.dZTOwUDL5EzN0czW}
 ```
 **Flag:** `pwn.college{EZ-lApC3CvTDva7cICuSJjYy9TN.dZTOwUDL5EzN0czW}`
 ## New Learning
-rm cmd - deletes file, arguments it can take as file name or file path
+rm - deletes file, arguments it can take as file name or file path
 ## Reference
