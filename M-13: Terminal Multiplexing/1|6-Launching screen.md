@@ -15,8 +15,10 @@ NOTE: When you're done with your command line, type exit or press Ctrl-D to leav
 # Thought Process & Solution
 
 ```bash
-
+Congratulations! You're inside a screen session!
+Here's your flag:
+pwn.college{YypXwK4dS1uHaxNSK80rwAVNzSk.QX1gjM4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{YypXwK4dS1uHaxNSK80rwAVNzSk.QX1gjM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
