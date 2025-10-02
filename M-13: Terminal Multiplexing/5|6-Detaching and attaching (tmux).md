@@ -43,6 +43,6 @@ hacker@terminal-multiplexing~detaching-and-attaching-tmux:~$ tmux a
 hacker@terminal-multiplexing~detaching-and-attaching-tmux:~$  echo Congratulations, here is your flag: pwn.college{cpUd_U_Ld6_y1zI67kd_G-OuBFz.QX5gjM4EDL5EzN0czW}
 Congratulations, here is your flag: pwn.college{cpUd_U_Ld6_y1zI67kd_G-OuBFz.QX5gjM4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{cpUd_U_Ld6_y1zI67kd_G-OuBFz.QX5gjM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
