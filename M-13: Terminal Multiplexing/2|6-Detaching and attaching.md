@@ -52,6 +52,6 @@ hacker@terminal-multiplexing~detaching-and-attaching:~$
 hacker@terminal-multiplexing~detaching-and-attaching:~$ echo Yes! Flag is: pwn.college{g2a8dvDG4tJVhEHUZuXvUbntYfI.QX2gjM4EDL5EzN0czW}
 Yes! Flag is: pwn.college{g2a8dvDG4tJVhEHUZuXvUbntYfI.QX2gjM4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{g2a8dvDG4tJVhEHUZuXvUbntYfI.QX2gjM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
