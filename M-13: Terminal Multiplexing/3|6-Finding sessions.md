@@ -21,6 +21,7 @@ In this challenge, we've created three screen sessions for you. One of them cont
 You'll need to check each one until you find it. Don't forget to detach (Ctrl-A d) before trying the next session!
 # Thought Process & Solution
 
+[Main terminal]
 ```bash
 hacker@terminal-multiplexing~finding-sessions:~$ screen -ls
 There are screens on:
@@ -53,6 +54,6 @@ Congratulations! You found the right session!
 hacker@terminal-multiplexing~finding-sessions:~$  echo pwn.college{sDzSJwmjRl2-oF89fZiBKwb8FLp.QX3gjM4EDL5EzN0czW}
 pwn.college{sDzSJwmjRl2-oF89fZiBKwb8FLp.QX3gjM4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{sDzSJwmjRl2-oF89fZiBKwb8FLp.QX3gjM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
