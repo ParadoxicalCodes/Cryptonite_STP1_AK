@@ -10,7 +10,7 @@ As an aside, now you can see what the ~ was in the prompt! It shows the current 
 
 This challenge will require you to execute the /challenge/run program from a specific path (which it will tell you). You'll need to cd to that directory before rerunning the challenge program. Good luck!
 # Thought Process & Solution
-Nothing much to add here.
+The cat flag output is for one of the previous challenges im assuming though thats not the correct flag for this challenge. I was supposed to cd to a required dir then run my cmd /challenge/run
 ```bash
 hacker@paths~position-yet-elsewhere:~$ ls
 COLLEGE  a.sh            flag          leap        planet      rm   the-flag
