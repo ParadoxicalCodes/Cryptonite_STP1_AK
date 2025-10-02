@@ -23,6 +23,7 @@ Finally, if you give no arguments at all, cat will read from the terminal input 
 
 In this challenge, I will copy the flag to the flag file in your home directory (where your shell starts). Go read it with cat!
 # Thought Process & Solution
+catted the flag file for my flag
 ```bash
 hacker@commands~cat-not-the-pet-but-the-command:~$ ls
 COLLEGE  a.sh            flag          leap        planet      rm   the
