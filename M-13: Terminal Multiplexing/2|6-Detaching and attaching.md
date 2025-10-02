@@ -30,8 +30,27 @@ HINT: Remember: Hold Ctrl and press A, then release both and press d.
 HINT: If you see [detached from...], you did it right!
 # Thought Process & Solution
 
-```bash
 
+[Main terminal]
+```bash
+hacker@terminal-multiplexing~detaching-and-attaching:~$ screen
+[detached from 201.pts-0.terminal-multiplexing~detaching-and-attaching]
+hacker@terminal-multiplexing~detaching-and-attaching:~$ /challenge/run
+Found detached screen session: 166.pts-0.terminal-multiplexing~detaching-and-attaching
+Sending flag to your screen session...
+
+Flag sent! Now reattach to your screen session with:
+
+  screen -r
+
+You'll find the flag waiting for you there!
+hacker@terminal-multiplexing~detaching-and-attaching:~$ screen -r
+```
+[Screen]
+```
+hacker@terminal-multiplexing~detaching-and-attaching:~$
+hacker@terminal-multiplexing~detaching-and-attaching:~$ echo Yes! Flag is: pwn.college{g2a8dvDG4tJVhEHUZuXvUbntYfI.QX2gjM4EDL5EzN0czW}
+Yes! Flag is: pwn.college{g2a8dvDG4tJVhEHUZuXvUbntYfI.QX2gjM4EDL5EzN0czW}
 ```
 **Flag:** `pwn.college{}`
 ## New Learning
