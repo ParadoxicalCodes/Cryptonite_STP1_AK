@@ -171,7 +171,7 @@ pwn.college{EaaE5L_YPfWg4hAzcM4dYlc8jFS.QX0MzM4EDL5EzN0czW}
 ```
 
 > [!NOTE]
-> Apparently there is docker issue for my pwn college, so I can skip this one as allowed by my mentor Harshith.
+> Apparently there is docker issue for my pwn college for this particular program, so I can skip this one as allowed by my mentor Harshith.
 **Flag:** `pwn.college{}`
 ## New Learning
 ## Reference
