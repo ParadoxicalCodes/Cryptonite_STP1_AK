@@ -22,8 +22,23 @@ Let's practice. This level's /challenge/run will run the win command via its bar
 # Thought Process & Solution
 
 ```bash
-
+hacker@path~setting-path:~$ echo $PATH
+/run/challenge/bin:/run/dojo/bin:/root/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+hacker@path~setting-path:~$ PATH=/challenge/more_commands/win
+hacker@path~setting-path:~$ echo $PATH
+/challenge/more_commands/win
+hacker@path~setting-path:~$ /challenge/run
+Invoking 'win'....
+/challenge/run: line 4: win: command not found
+It looks like that did not work... Did you set PATH correctly?
+hacker@path~setting-path:~$ PATH=/challenge/more_commands/
+hacker@path~setting-path:~$ echo $PATH
+/challenge/more_commands/
+hacker@path~setting-path:~$ /challenge/run
+Invoking 'win'....
+Congratulations! You properly set the flag and 'win' has launched!
+pwn.college{MGE17KDbNxq42u08z8RHF2fbPuQ.dVzNyUDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{MGE17KDbNxq42u08z8RHF2fbPuQ.dVzNyUDL5EzN0czW}`
 ## New Learning
 ## Reference
