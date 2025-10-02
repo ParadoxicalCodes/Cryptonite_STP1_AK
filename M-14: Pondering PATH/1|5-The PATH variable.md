@@ -15,7 +15,9 @@ In this level, you will disrupt the operation of the /challenge/run program. Thi
 
 Keep in mind: /challenge/run will be a child process of your shell, so you must apply the concepts you learned in Shell Variables to mess with its PATH variable! If you don't succeed, and the flag gets deleted, you will need to restart the challenge to try again!
 # Thought Process & Solution
+~Minor Doubt here -  wouldn't my /challenge/run not run if i do PATH="" ?~
 
+After thinking a bit about this and searching on google i realise that commenting out PATH would mean that it tells the shell to not look for any directories for commands, normally rm would have its directory stored in PATH as a lookup reference for shell to locate whenever we call the command by its name. Commenting it out doesnt mean my files or commands itself delete away, rather the shell wouldnt know what rm is or where it is i will have to give its absolute path to call it. Thats why /challenge/run gets to run because im giving the absolute path for my command here.
 ```bash
 hacker@path~the-path-variable:~$ env
 SHELL=/run/dojo/bin/bash
