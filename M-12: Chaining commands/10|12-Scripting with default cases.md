@@ -42,8 +42,25 @@ Once your script works correctly, run /challenge/run to get your flag!
 # Thought Process & Solution
 
 ```bash
+hacker@chaining~scripting-with-default-cases:~$ nano ~/solve.sh
+hacker@chaining~scripting-with-default-cases:~$ cat ~/solve.sh
+#!/bin/bash
 
+if [ "$1" == "pwn" ]
+then
+	echo "college"
+else
+	echo "nope"
+fi
+hacker@chaining~scripting-with-default-cases:~$ bash ~/solve.sh pwn
+college
+hacker@chaining~scripting-with-default-cases:~$ bash ~/solve.sh hack
+nope
+hacker@chaining~scripting-with-default-cases:~$ /challenge/run
+Correct! Your script properly handles the if/else conditions.
+Here's your flag:
+pwn.college{spNuj8_0T5qZBnJGgn_gd3PZRhE.QX3MzM4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{spNuj8_0T5qZBnJGgn_gd3PZRhE.QX3MzM4EDL5EzN0czW}`
 ## New Learning
 ## Reference
