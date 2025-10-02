@@ -169,6 +169,9 @@ pwn.college{F5Gymh85CLICuUd-bFO-24.E2Rlg16LBTbeKGR-tUB9qV0}
 pwn.college{37a9Burt.pDpO6a9RJs1v6ri4e7iIqAPoKUQhFGJj5iEPl}
 pwn.college{EaaE5L_YPfWg4hAzcM4dYlc8jFS.QX0MzM4EDL5EzN0czW}
 ```
+
+> [!NOTE]
+> Apparently there is docker issue for my pwn college, so I can skip this one as allowed by my mentor Harshith.
 **Flag:** `pwn.college{}`
 ## New Learning
 ## Reference
