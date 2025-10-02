@@ -37,6 +37,8 @@ Now for your challenge! There are two files in /challenge:
 Use diff to find what's different between these files and get your flag!
 # Thought Process & Solution
 Catted both the files to see how the fake flags are stored and then executed the diff cmd to see which is the odd entry. Although since the both files are small so its easy to see the odd one out aka my real flag.
+
+Also 22a23 means after line 22 of file1 another line is there i.e. at line 23 of file2
 ```bash
 hacker@commands~comparing-files:~$ cat /challenge/decoys_only.txt
 pwn.college{fake_flag_number_1_wRAqLT9bu58}
