@@ -13,6 +13,9 @@ bash: run: command not found
 We'll explore the mechanisms behind this concept later, but in this challenge, we'll learn how to explicitly use relative paths to launch run in this scenario. The way to do this is to tell Linux that you explicitly want to execute a program in the current directory, using . like in the previous levels. Give it a try now!
 # Thought Process & Solution
 Made an incorrect cmd so as to get instructions or hints, then acc to instructions i went moved to /challenge dir. And since /run is not possible directly we are supposed to call it implicitly using ".", so single dot refers to cwd and double dot would refer to prev dir.
+
+I tried two variations here ./run and ../challenge/run both give our flag ".." means going back 1 dir.
+./challenge/run this didnt work as shell looks for challenge/run inside /challenge
 ```bash
 hacker@paths~implicit-relative-path:~$ /challenge/run
 Incorrect...
