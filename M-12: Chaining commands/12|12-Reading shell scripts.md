@@ -7,8 +7,22 @@ NOTE: Feel free to try to read the code of other challenges as well! Reading cod
 # Thought Process & Solution
 
 ```bash
+hacker@chaining~reading-shell-scripts:~$ cat /challenge/run
+#!/opt/pwn.college/bash
 
+read GUESS
+if [ "$GUESS" == "hack the PLANET" ]
+then
+	echo "CORRECT! Your flag:"
+	cat /flag
+else
+	echo "Read the /challenge/run file to figure out the correct password!"
+fi
+hacker@chaining~reading-shell-scripts:~$ /challenge/run hack the PLANET
+hack the PLANET
+CORRECT! Your flag:
+pwn.college{8TndxX192uJqUyc2T2Umhwrssna.QXyADO4EDL5EzN0czW}
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `pwn.college{8TndxX192uJqUyc2T2Umhwrssna.QXyADO4EDL5EzN0czW}`
 ## New Learning
 ## Reference
