@@ -20,7 +20,11 @@ hacker@dojo:~$
 ```
 Let's practice. This level's /challenge/run will run the win command via its bare name, but this command exists in the /challenge/more_commands/ directory, which is not initially in the PATH. The win command is the only thing that /challenge/run needs, so you can just overwrite PATH with that one directory. Good luck!
 # Thought Process & Solution
+Slight confusion that i encountered here - PATH=/challenge/more_commands/win will check for command /challenge/more_commands/win/win which doesnt exist.
 
+Instead PATH=/challenge/more_commands is the correct solution as it will then check for /challenge/more_commands/win which does exist.
+
+Essentially PATH variable only has the directory not the specific path to the command rather the directory that holds the command.
 ```bash
 hacker@path~setting-path:~$ echo $PATH
 /run/challenge/bin:/run/dojo/bin:/root/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
