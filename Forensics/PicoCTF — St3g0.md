@@ -6,6 +6,6 @@ Download this image and find the flag.
 ```bash
 
 ```
-**Flag:** `pwn.college{}`
+**Flag:** `picoCTF{}`
 ## New Learning
 ## Reference
